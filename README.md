@@ -1,5 +1,7 @@
 # NetSentinel — Network Inspector
 
+![NetSentinel — Network Intelligence Platform](docs/images/netsentinel-banner.svg)
+
 > A network intelligence and security monitoring platform for capturing, analyzing, and understanding network traffic.
 
 NetSentinel is a full-stack computer networking project focused on **packet inspection, network flow analytics, DNS intelligence, and rule-based threat detection**. It is designed to combine a high-performance C++ packet-processing engine with a Python API and a real-time Next.js dashboard.
@@ -77,6 +79,8 @@ Alerts will include a severity, source information, timestamp, description, and 
 
 ## Architecture
 
+![NetSentinel system architecture](docs/images/architecture.svg)
+
 The application is split into independent components:
 
 ```text
@@ -140,6 +144,12 @@ The C++ engine should remain independently executable. The backend communicates 
 
 ---
 
+## Dashboard Preview
+
+The following is a **UI concept/mockup**, not a screenshot of a running application. The dashboard will be implemented incrementally as the frontend milestones are completed.
+
+![NetSentinel dashboard concept](docs/images/dashboard-concept.svg)
+
 ## Planned Dashboard Pages
 
 | Page | Purpose |
@@ -154,6 +164,12 @@ The C++ engine should remain independently executable. The backend communicates 
 | Settings | Capture preferences and application configuration |
 
 ---
+
+### Planned page concepts
+
+| Overview | Packets | Flows |
+|---|---|---|
+| Network-wide metrics and alerts | Packet-level inspection | Connection and bandwidth analysis |
 
 ## Repository Structure
 
